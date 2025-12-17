@@ -1,0 +1,16 @@
+port: 7880
+
+# Development keys
+keys:
+  devkey: secret
+
+# Redis configuration for Egress (using Docker service name)
+redis:
+  address: redis:6379
+
+# Room configuration
+room:
+  empty_timeout: 300
+
+# Logging
+log_level: info

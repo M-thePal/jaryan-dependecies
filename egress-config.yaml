@@ -1,0 +1,20 @@
+api_key: devkey
+api_secret: secret
+
+# LiveKit server URL (using Docker service name)
+ws_url: ws://livekit-server:7880
+
+# Allow insecure connection for development
+insecure: true
+
+# Redis configuration (using Docker service name)
+redis:
+  address: redis:6379
+
+# File output configuration (optional fallback)
+file_outputs:
+  directory: /out/recordings
+
+# Logging
+log_level: info
+
